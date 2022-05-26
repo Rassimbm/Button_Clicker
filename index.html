@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Button Clicker</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="header">
+        <h1>Dojonary</h1>
+        <input type="text" placeholder="Search">
+        <button onclick="change(this)">Login</button>
+    </div>
+    <div class="container">
+
+        <div class="ninja-profile">
+            <div class="ninja">
+                <div class="left-content">
+                    <h1>ninja</h1>
+                    <h3>noun</h3>
+                    <h4>plural: ninjas</h4>
+                    <button onclick="alert('Ninja was liked')">13 Likes</button>
+                </div>
+                <div class="right-content">
+                    <p>A practitioner skilled in the <a href="#">Japanese</a> art of <a href="#"> ninjutsu</a></p>
+                </div>
+            </div>
+            <div class="ninja">
+                <div class="left-content">
+                    <h1>ninja</h1>
+                    <h3>noun</h3>
+                    <h4>plural: ninjas</h4>
+                    <button onclick="alert('Ninja was liked')">37 Likes</button>
+                    <!-- I'm sorry I thought it was only for the top button -->
+                </div>
+                <div class="right-content">
+                    <p>A <a href="#">programmer</a> who breaks down problems with <a href="#">zen</a>-like focus</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="ninja-dojonary">
+            <p>Dojonary is defined by<span> YOU</span></p>
+            <button onclick="hide(this)">Add definition</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
